@@ -1,0 +1,16 @@
+Nodes:A,B,C,D,E,G
+Heuristic Val: 11,6,99,1,7,0
+Enter st,end,weight (-1,-1,-1 to exit):
+A,B,2
+A,E,3
+B,C,1
+B,G,9
+D,E,6
+D,G,1
+-1,-1,-1
+Start:A
+Goals:G
+
+{0: [[1, 2], [4, 3]], 1: [[2, 1], [5, 9]], 2: [], 3: [[4, 6], [5, 1]], 4: [], 5: []}
+Optimal path:  ['A', 'B', 'G']
+Cost of path: 11

@@ -1,0 +1,28 @@
+Nodes:S,A,B,C,D,E,F,I,J,KS,A,B,C,D,E,F,I,J,K
+Heuristic Val: 10,8,6,7,5,3,4,0,0,0
+Enter st,end,weight (-1,-1,-1 to exit):
+S,A,5
+S,B,9
+S,D,6
+A,B,3
+A,I,9
+B,A,2
+B,C,1
+B,J,5
+C,S,6
+C,J,5
+C,F,7
+D,S,1
+D,C,2
+D,E,2
+D,F,6
+E,K,7
+F,D,2
+F,K,8
+-1,-1,-1
+Start:S
+Goals:I,J,K
+{0: [[1, 5], [2, 3], [3, 9], [4, 6]], 1: [[2, 3], [7, 9]], 2: [[3, 1], [8, 5]], 3: [[4, 2], [6, 7]], 4: [[5, 2], [6, 6]], 5: [[9, 7]], 6: [[9, 8]], 7: [], 8: [], 9: []}
+Optimal path:  ['S', 'B', 'J']
+Cost of path: 8
+
